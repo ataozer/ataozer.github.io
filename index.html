@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CEPHE: Savaş Haritası · ATA COPLAY</title>
+<meta name="description" content="CEPHE: Android için büyük strateji oyunu. Ülkeni yönet, ordu kur, cephelerde savaş, diplomasi ve ticaretle dünyayı fethet.">
+<link rel="icon" href="img/logo.jpg">
+<style>
+:root{--bg:#07080c;--kart:#12141c;--yazi:#f1ede4;--soluk:#b9b2a4;--tur:#ff7a00;--kir:#e0322b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--yazi);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
+a{color:var(--tur)}
+header{position:relative;min-height:62vh;display:flex;align-items:flex-end;justify-content:center;text-align:center;background:#000 url(img/kapak.jpg) center top/cover no-repeat}
+header::after{content:"";position:absolute;inset:0;background:linear-gradient(#0000 40%,var(--bg))}
+.ust{position:relative;z-index:1;padding:0 16px 34px;max-width:760px}
+.ust p{font-size:clamp(16px,2.4vw,20px);color:#ffe2c4;margin:10px 0 18px;text-shadow:0 2px 10px #000}
+.dugme{display:inline-block;padding:13px 26px;border-radius:12px;background:var(--kir);color:#fff;font-weight:800;text-decoration:none;margin:4px}
+.dugme.ikinci{background:#1f2433;border:1px solid #3a4152}
+.bar{display:flex;align-items:center;padding:10px 16px;background:var(--bg)}.marka{display:flex;align-items:center;gap:10px;color:#fff;font-weight:800;text-decoration:none}
+.marka img{width:44px;height:44px;border-radius:10px;box-shadow:0 0 0 2px var(--tur)}
+main{max-width:1060px;margin:0 auto;padding:10px 16px 40px}
+h2{font-size:24px;margin:34px 0 12px}
+.ozel{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.ozel div{background:var(--kart);border:1px solid #232838;border-radius:12px;padding:14px}
+.ozel b{display:block;color:var(--tur);margin-bottom:4px}
+.ozel span{color:var(--soluk);font-size:15px}
+.galeri{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.galeri img{width:100%;height:auto;border-radius:12px;border:1px solid #2a2f3e;display:block}
+footer{border-top:1px solid #1d2130;text-align:center;color:var(--soluk);font-size:14px;padding:20px 16px 30px}
+footer a{margin:0 8px}
+</style>
+</head>
+<body>
+<div class="bar"><a class="marka" href="./"><img src="img/logo.jpg" alt="ATA COPLAY logosu">ATA COPLAY</a></div>
+<header>
+  <div class="ust">
+    <p>Android için büyük strateji oyunu. Ülkeni yönet, ordu kur, cephelerde savaş; diplomasi, ticaret ve araştırmayla dünyayı fethet.</p>
+    <a class="dugme" href="https://play.google.com/store/apps/details?id=co.ata.cephe">Google Play'de CEPHE</a>
+    <a class="dugme ikinci" href="https://www.instagram.com/atacoplay/">Instagram: @atacoplay</a>
+  </div>
+</header>
+<main>
+  <h2>Oyunda neler var?</h2>
+  <div class="ozel">
+    <div><b>Üç harita</b><span>Avrupa, 1936 dünyası ve günümüz dünyası; 170'ten fazla ülke, yüzlerce eyalet.</span></div>
+    <div><b>Canlı cepheler</b><span>Siper, organizasyon, kuşatma. Uzakta bayraklar, yakında çarpışan askerler.</span></div>
+    <div><b>Ulusal odak ağaçları</b><span>İttifak kur, ültimatom ver, ulusunun yolunu kendin seç.</span></div>
+    <div><b>Diplomasi ve ticaret</b><span>Savaş nedeni, barış, vasallık, petrol ve demir anlaşmaları.</span></div>
+    <div><b>Araştırma ve üretim</b><span>Ekonomi, ordu, diplomasi ve donanma teknolojileri; tümenini kendin tasarla.</span></div>
+    <div><b>Güç sıralaması</b><span>Fethettikçe dünyanın zirvesine tırman.</span></div>
+  </div>
+  <h2>Ekran görüntüleri</h2>
+  <div class="galeri">
+    <img src="img/sav.jpg" alt="Büyük strateji haritası" loading="lazy">
+    <img src="img/yakin.jpg" alt="Canlı cephe savaşları" loading="lazy">
+    <img src="img/odak.jpg" alt="Ulusal odak ağaçları" loading="lazy">
+    <img src="img/ticaret.jpg" alt="Ticaret ve diplomasi" loading="lazy">
+    <img src="img/nakliye.jpg" alt="Denizden nakliye" loading="lazy">
+    <img src="img/sira.jpg" alt="Güç sıralaması" loading="lazy">
+  </div>
+</main>
+<footer>
+  © 2026 ATA COPLAY
+  <a href="https://ataozer.github.io/cephe-gizlilik/">Gizlilik politikası</a>
+  <a href="https://www.instagram.com/atacoplay/">Instagram</a>
+</footer>
+</body>
+</html>
